@@ -1,0 +1,48 @@
+.fondo {
+    background-image: url("imagenes/woman_vaccination.png");
+    background-position: right;
+    background-size: 50% auto; 
+    background-repeat: no-repeat;
+    
+}
+
+.triangulo-equilatero-bottom {
+    width: 0;
+    height: 0;
+    border-right: 100px solid transparent;
+    border-bottom: 100px solid transparent;
+    border-left: 100px solid transparent;
+    border-top: 100px solid #e2e2e1;
+}
+
+
+.margeneslaterales {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.marginTopBottom{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.nav-transparency {
+    background-color: rgba(255,255,255,0.5); /* En este caso sería color de fondo blanco con 50% de transparencia. */
+
+}
+
+.marginTop{
+    margin-top: 50px;
+}
+
+.marginNavBar {
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+}
+
+
+
+.between {
+    justify-content: space-between;
+}

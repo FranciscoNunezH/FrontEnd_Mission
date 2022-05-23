@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pokedex</title>
+
+  <!-- Incluimos las referencias para utlizar Bootstrap asi como la referencia a el archivo CSS de estilos-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+  crossorigin="anonymous"></script>
+
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="shortcut icon" href="./images/pokeball.png" />
+  
+</head>
+
+
+
+<!-- NavBar-->
+<nav class="navbar navbar-dark bg-secondary">
+  <div class="container-fluid">
+    <a class="navbar-brand">Pokedex_X</a>
+    <form class="d-flex">
+      <input class="form-control me-2" type="text" placeholder="Search" id="searchBox" aria-label="Search">
+      <button class="btn btn-outline-dark btn-light" type="button" id="myButton" onclick="datosPokemon()">Search</button>
+    </form>
+  </div>
+</nav>
+  
+
+<!-- Un contenedor [ Que tenga dentro dos columnas ]-->
+<div class="container-fluid margenes-laterales text-center">
+  <div class="row">
+    <!-- Primer Columna-->
+    <div class="col margen-top">
+      <p class="h1" id="pokeName">Pokémon</p>
+      <p class="h4" id="pokeType">Type</p>
+      <img src="images/pokeball.png" id="pokeImage" width="250px" height="250px" class="img-fluid" alt="...">
+      <p id="pokeId"></p>
+    </div>
+  </div>
+</div>
+
+<!---->
+<div class="container-fluid margenes-laterales text-center">
+  <div class="row">
+    <figure class="text-center">
+      <p class="lead" id="pokeFlavorText"><em>----</em></p>
+    </figure>
+  </div>
+</div>
+
+<!---->
+<div class="container-fluid margenes-laterales text-center">
+
+  <div class="row justify-content-md-center">
+    <div class="col col-lg-1">
+      <p class="lead"><strong>HP</strong></p>
+    </div>
+    <div class="col col-lg-1">
+      <p class="lead" id="pokeHP"><strong>0</strong></p>
+    </div>
+  </div>
+
+  <!---->
+  <div class="row justify-content-md-center">
+    <div class="col col-lg-1">
+      <p class="lead"><strong>Atk</strong></p>
+    </div>
+    <div class="col col-lg-1">
+      <p class="lead" id="pokeAtk"><strong>0</strong></p>
+    </div>
+  </div>
+
+  <!---->
+  <div class="row justify-content-md-center">
+    <div class="col col-lg-1">
+      <p class="lead"><strong>Def</strong></p>
+    </div>
+    <div class="col col-lg-1">
+      <p class="lead" id="pokeDef"><strong>0</strong></p>
+    </div>
+  </div>
+
+  <!---->
+  <div class="row justify-content-md-center">
+    <div class="col col-lg-1">
+      <p class="lead"><strong>Sp. Atk</strong></p>
+    </div>
+    <div class="col col-lg-1">
+      <p class="lead" id="pokeSpecial"><strong>0</strong></p>
+    </div>
+  </div>
+
+  <!---->
+  <div class="row justify-content-md-center">
+    <div class="col col-lg-1">
+      <p class="lead"><strong>Speed</strong></p>
+    </div>
+    <div class="col col-lg-1">
+      <p class="lead" id="pokeSpeed"><strong>0</strong></p>
+    </div>
+  </div>
+
+  <!---->
+  <div class="row justify-content-md-center">
+    <div class="col col-lg-1">
+      <p class="lead"><strong>Weight</strong></p>
+    </div>
+    <div class="col col-lg-1">
+      <p class="lead" id="pokeWeight"><strong>0</strong></p>
+    </div>
+  </div>
+
+  <!-- Parte Final -->
+  <div class="container-fluid margenes-laterales">
+    <footer class="d-flex justify-content-md-center align-items-center py-3 my-4 border-top">
+      <div class="col-md-2 d-flex align-items-center">  
+          <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+        <figure class="text-center">
+          <span class="text-muted">Francisco Nuñez H, LaunchX © 2022</span>
+        </figure>
+      </div>
+    </footer>
+
+  </div>
+
+
+</div>
+    
+
+
+</body>
+
+<footer>
+  <script src="./scripts/logiPokedex.js"></script>
+</footer>
+</html>
