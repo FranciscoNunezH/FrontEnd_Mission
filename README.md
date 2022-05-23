@@ -43,7 +43,7 @@
 - Pokedex
 
 [ Hicimos como ejercicio un pokédex usando la Poke Api. <br>
-Dando Click Aquí podras verlo.](https://splendorous-dolphin-75b0db.netlify.app/)
+Dando Click Aquí podras verlo.](https://tiny-valkyrie-66bff5.netlify.app)
 
 <img src="https://64.media.tumblr.com/c7beb8c411a9447f326c54b531b1067a/tumblr_mhd98a5fT51s2ugo7o9_250.gif" alt>   
 <em>"Squirtle, Squirtle, Squirtle!"</em>
