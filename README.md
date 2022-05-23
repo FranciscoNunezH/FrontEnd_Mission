@@ -42,6 +42,8 @@
 - JS en el navegador (DOM)
 - Pokedex
 
+
+
 [ Hicimos como ejercicio un pokédex usando la Poke Api. <br>
 Dando Click Aquí podras verlo.](https://tiny-valkyrie-66bff5.netlify.app)
 
@@ -60,7 +62,10 @@ el mission Commander nos dio la libertad de trabajar si asi lo deseabamos con ot
 La idea era practicar.
 
 
-[Aquí puedes ver mi practica usando una api del clima.](https://splendorous-dolphin-75b0db.netlify.app/)
+[Aquí puedes ver mi practica usando <br>
+una api del clima.](https://splendorous-dolphin-75b0db.netlify.app/) <br>
+<img src="https://github.com/FranciscoNunezH/FrontEnd_Mission/blob/master/05%20-%20VueJS/captura1.png" width="250">
+
 
 
 
