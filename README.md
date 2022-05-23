@@ -1,24 +1,14 @@
-# weather
 
-## Project setup
-```
-npm install
-```
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
 
-### Compiles and minifies for production
-```
-npm run build
-```
 
-### Lints and fixes files
-```
-npm run lint
-```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Semana 5
+El tema fue FrameWorks, vimos VueJS <br>
+Y aunque se nos pidio que desarrollaramos algo siguiendo la tematica de la pasteleria,
+el mission Commander nos dio la libertad de trabajar si asi lo deseabamos con otra tematica.
+La idea era practicar.
+
+
+Aplicacion del Clima creada con VueJS
+[Link de Despliegue.](https://splendorous-dolphin-75b0db.netlify.app/)
